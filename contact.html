@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Nestora</title>
+  <meta name="description" content="Get in touch with the Nestora team. We'd love to hear from you.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%238B6F47'/%3E%3Ctext x='50%25' y='55%25' dominant-baseline='middle' text-anchor='middle' font-size='18' fill='%23FAF7F4' font-family='Georgia,serif'%3EN%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══ HEADER ═══════════════════════════════════════════ -->
+  <header class="site-header scrolled" id="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">Nestora</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="index.html"        class="nav-link">Home</a></li>
+            <li><a href="shop.html"         class="nav-link">Shop</a></li>
+            <li><a href="new-arrivals.html" class="nav-link">New Arrivals</a></li>
+            <li><a href="about.html"        class="nav-link">About</a></li>
+            <li><a href="contact.html"      class="nav-link active">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-icons">
+          <a href="shop.html"  aria-label="Search">🔍</a>
+          <a href="about.html" aria-label="Account">👤</a>
+          <a href="shop.html"  aria-label="Cart">🛒</a>
+        </div>
+        <button class="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <button class="mobile-close" aria-label="Close menu">✕</button>
+    <a href="index.html"        class="nav-link">Home</a>
+    <a href="shop.html"         class="nav-link">Shop</a>
+    <a href="new-arrivals.html" class="nav-link">New Arrivals</a>
+    <a href="about.html"        class="nav-link">About</a>
+    <a href="contact.html"      class="nav-link">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- ═══ PAGE HERO ════════════════════════════════════════ -->
+    <div class="page-hero" style="padding-top:9rem;">
+      <div class="container">
+        <span class="section-label">We're Here for You</span>
+        <h1>Get In Touch</h1>
+        <p>Have a question, a design idea, or just want to say hello? We'd love to hear from you.</p>
+      </div>
+    </div>
+
+    <!-- ═══ CONTACT LAYOUT ════════════════════════════════════ -->
+    <div style="background:var(--warm-white);">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Left: Contact Info -->
+          <div class="contact-info">
+            <span class="section-label">Reach Us</span>
+            <h2 class="section-heading">Let's Connect</h2>
+            <p>Our team is available Monday through Friday, 9 AM – 5 PM Central Time. We typically respond within one business day.</p>
+
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <h5>Our Studio</h5>
+                <p>225 W Wacker Dr, Suite 400<br>Chicago, Illinois 60606<br>United States</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📞</div>
+              <div>
+                <h5>Phone</h5>
+                <p>+1 (312) 555-7492<br>Mon–Fri, 9 AM – 5 PM CT</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">✉️</div>
+              <div>
+                <h5>Email</h5>
+                <p>hello@nestorahome.com<br>support@nestorahome.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🚚</div>
+              <div>
+                <h5>Order & Shipping Questions</h5>
+                <p>For order-related inquiries, please use the form or call us directly. We're happy to help.</p>
+              </div>
+            </div>
+
+            <div style="margin-top:2.5rem;">
+              <p style="font-size:0.72rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--taupe);font-weight:600;margin-bottom:1rem;">Follow Along</p>
+              <div class="social-links">
+                <a href="about.html" class="social-link" style="border-color:var(--border);color:var(--muted);" aria-label="Instagram">IG</a>
+                <a href="about.html" class="social-link" style="border-color:var(--border);color:var(--muted);" aria-label="Pinterest">PT</a>
+                <a href="about.html" class="social-link" style="border-color:var(--border);color:var(--muted);" aria-label="Facebook">FB</a>
+                <a href="about.html" class="social-link" style="border-color:var(--border);color:var(--muted);" aria-label="TikTok">TK</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div>
+            <div class="contact-form-wrap">
+              <h3>Send Us a Message</h3>
+              <form id="contactForm" novalidate>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Jane" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number (Optional)</label>
+                  <input type="tel" id="phone" name="phone" placeholder="+1 (312) 555-0000">
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <select id="subject" name="subject">
+                    <option value="">Select a topic</option>
+                    <option>Order Inquiry</option>
+                    <option>Product Question</option>
+                    <option>Returns &amp; Exchanges</option>
+                    <option>Wholesale Inquiry</option>
+                    <option>Press &amp; Collaborations</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Your Message</label>
+                  <textarea id="message" name="message" rows="5" placeholder="Tell us how we can help..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">Send Message</button>
+                <p class="form-note">By submitting this form, you agree to our <a href="privacy.html" style="color:var(--soft-brown);text-decoration:underline;">Privacy Policy</a>. We never share your information.</p>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ FAQ ═══════════════════════════════════════════ -->
+    <section style="background:var(--beige);padding:5rem 0;">
+      <div class="container" style="max-width:780px;">
+        <div class="text-center" style="margin-bottom:3rem;">
+          <span class="section-label">Quick Answers</span>
+          <h2 class="section-heading">Frequently Asked</h2>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:1.5rem;">
+          <details style="border:1px solid var(--border);border-radius:8px;padding:1.5rem;background:var(--warm-white);">
+            <summary style="font-family:var(--serif);font-size:1.1rem;cursor:pointer;color:var(--charcoal);">How long does shipping take?</summary>
+            <p style="margin-top:1rem;color:var(--muted);font-size:0.9rem;line-height:1.8;">Most orders ship within 1–2 business days from our Chicago warehouse. Standard US shipping takes 3–5 business days. Expedited options are available at checkout.</p>
+          </details>
+          <details style="border:1px solid var(--border);border-radius:8px;padding:1.5rem;background:var(--warm-white);">
+            <summary style="font-family:var(--serif);font-size:1.1rem;cursor:pointer;color:var(--charcoal);">What is your return policy?</summary>
+            <p style="margin-top:1rem;color:var(--muted);font-size:0.9rem;line-height:1.8;">We offer hassle-free returns within 30 days of delivery. Items must be unused and in original packaging. Contact our team to initiate a return.</p>
+          </details>
+          <details style="border:1px solid var(--border);border-radius:8px;padding:1.5rem;background:var(--warm-white);">
+            <summary style="font-family:var(--serif);font-size:1.1rem;cursor:pointer;color:var(--charcoal);">Do you offer wholesale pricing?</summary>
+            <p style="margin-top:1rem;color:var(--muted);font-size:0.9rem;line-height:1.8;">Yes! We work with interior designers, hotels, and boutiques. Use the contact form above and select "Wholesale Inquiry" to get started.</p>
+          </details>
+          <details style="border:1px solid var(--border);border-radius:8px;padding:1.5rem;background:var(--warm-white);">
+            <summary style="font-family:var(--serif);font-size:1.1rem;cursor:pointer;color:var(--charcoal);">Are your products ethically made?</summary>
+            <p style="margin-top:1rem;color:var(--muted);font-size:0.9rem;line-height:1.8;">Absolutely. We work exclusively with makers who meet our standards for fair wages, safe working conditions, and environmental responsibility. Learn more on our <a href="about.html" style="color:var(--soft-brown);text-decoration:underline;">About page</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══ FOOTER ═══════════════════════════════════════════ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo-footer">Nestora</a>
+          <p>Thoughtfully curated home accessories for those who believe their space should feel as good as it looks. Based in Chicago, IL.</p>
+          <div class="social-links">
+            <a href="about.html" class="social-link" aria-label="Instagram">IG</a>
+            <a href="about.html" class="social-link" aria-label="Pinterest">PT</a>
+            <a href="about.html" class="social-link" aria-label="Facebook">FB</a>
+            <a href="about.html" class="social-link" aria-label="TikTok">TK</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop All</a></li>
+            <li><a href="new-arrivals.html">New Arrivals</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Categories</h5>
+          <ul>
+            <li><a href="shop.html">Vases &amp; Vessels</a></li>
+            <li><a href="shop.html">Lighting</a></li>
+            <li><a href="shop.html">Wall Art</a></li>
+            <li><a href="shop.html">Textiles</a></li>
+            <li><a href="shop.html">Candles</a></li>
+            <li><a href="shop.html">Trays &amp; Accents</a></li>
+          </ul>
+        </div>
+        <div class="footer-col footer-contact">
+          <h5>Contact &amp; Newsletter</h5>
+          <p><strong>Address</strong><br>225 W Wacker Dr, Suite 400<br>Chicago, Illinois 60606</p>
+          <p><strong>Phone</strong><br>+1 (312) 555-7492</p>
+          <form class="newsletter-form" onsubmit="return false;">
+            <input type="email" placeholder="Your email address" aria-label="Email for newsletter">
+            <button type="submit">Join</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Nestora. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="contact.html">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
